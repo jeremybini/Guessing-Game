@@ -4,7 +4,7 @@ body, #header, #main {
 }
 
 body {
-	padding: 3px;
+	padding: 0 3px;
 }
 
 #header {
@@ -15,11 +15,6 @@ body {
 #header h1 {
 	font-size: 70px;
 }
-
-/*#main {
-	padding: 0;
-	width: 100%;
-}*/
 
 #main p {
 	font-size: 30px;
@@ -61,14 +56,11 @@ body {
 	font-size: 20px;
 }
 
-#remainder {
-	text-align: center;
-}
-
 #guesses li {
 	/*float: center;*/
 	border-bottom: 1px solid black;
 	display: inline-block;
+	font-size: 20px;
 	height: 40px;
 	margin: 20px;
 	width: 50px;
