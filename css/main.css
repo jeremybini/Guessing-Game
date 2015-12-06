@@ -1,0 +1,109 @@
+body, #header, #main {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+
+body {
+	padding: 3px;
+}
+
+#header {
+	padding: 20px 0 0 0;
+	width: 100%;
+}
+
+#header h1 {
+	font-size: 70px;
+}
+
+/*#main {
+	padding: 0;
+	width: 100%;
+}*/
+
+#main p {
+	font-size: 30px;
+}
+
+#main input {
+	display: inline;
+	font-size: 20px;
+	height: 60px;
+	text-align: center;
+	width: 300px;
+	vertical-align: top;
+}
+
+#main button {
+	background-color: #55b6b1;
+	color: white;
+	font-size: 20px;
+	padding: 15px 15px;
+	margin: 20px;
+	vertical-align: top;
+}
+
+#main form {
+	padding: 5px 0 0 0;
+}
+
+#guessing_area {
+	margin: 30px 0;
+	width: 100%;
+}
+
+#guessing_area button:hover {
+	background-color: #4ba7a2;
+}
+
+#guessing_area p {
+	color: #2c5db2;
+	font-size: 20px;
+}
+
+#remainder {
+	text-align: center;
+}
+
+#guesses li {
+	/*float: center;*/
+	border-bottom: 1px solid black;
+	display: inline-block;
+	height: 40px;
+	margin: 20px;
+	width: 50px;
+}
+
+#help button {
+	background-color: #a378a3;
+}
+
+#help button:hover {
+	background-color: #906390;
+}
+
+#help p{
+	font-size: 20px;
+}
+
+
+/*purple button: #a378a3*/
+/*purple button hover: #906390*/
+
+/*blue button: #55b6b1*/
+/*blue button hover: #4ba7a2*/
+
+/*very cold text: #2c5db2*/
+/*cold text: #429691*/
+/*warm text: #ec7700*/
+/*hot text: #ff0000*/
+
+
+
+
+
+
+
+
+
+
