@@ -1,4 +1,4 @@
-body, #header, #main {
+body, #header, #main, #cover {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
 }
@@ -14,6 +14,7 @@ body {
 
 #header h1 {
 	font-size: 70px;
+	margin: 20px 0 10px 0;
 }
 
 #main p {
@@ -52,8 +53,14 @@ body {
 }
 
 #guessing_area p {
-	color: #2c5db2;
+	border-radius: 5%;
 	font-size: 20px;
+	margin: 15px auto;
+	width: 500px;
+}
+
+#guesses {
+	padding: 0px;
 }
 
 #guesses li {
@@ -78,17 +85,66 @@ body {
 	font-size: 20px;
 }
 
+.hot {
+	color: #55B6B1;
+}
+
+.warm {
+	color: #55a5b6;
+}
+
+.cold {
+	color: #5588b6;
+}
+
+.frigid {
+	color: #5855b6;
+}
+
+#cover {
+	opacity: 0;
+}
+
+#win {
+	color: white;
+	font-size: 90px;
+	font-weight: bold;
+    height: 60%; 
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#replay {
+	display: none;
+}
+
+.coverWin {
+    background-color:#4ba7a2;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:99;
+}
+
+.coverLose {
+    background-color:#906390;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:99;
+}
 
 /*purple button: #a378a3*/
 /*purple button hover: #906390*/
 
 /*blue button: #55b6b1*/
 /*blue button hover: #4ba7a2*/
-
-/*very cold text: #2c5db2*/
-/*cold text: #429691*/
-/*warm text: #ec7700*/
-/*hot text: #ff0000*/
 
 
 
