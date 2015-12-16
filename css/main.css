@@ -102,7 +102,10 @@ body {
 }
 
 #cover {
+	display: none;
 	opacity: 0;
+	margin: 0;
+	padding: 0;
 }
 
 #win {
